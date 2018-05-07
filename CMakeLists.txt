@@ -2,6 +2,7 @@ Project(AyxCppTest)
 
 set (CMAKE_CXX_STANDARD 14)
 
+find_package (Threads)
 add_executable(AyxCppTest 
 	Add.h
 	exercise1.cpp 
@@ -19,3 +20,4 @@ add_executable(AyxCppTest
         polygon.cpp
 	main.cpp
 	catch/catch.hpp)
+    target_link_libraries (AyxCppTest ${CMAKE_THREAD_LIBS_INIT})

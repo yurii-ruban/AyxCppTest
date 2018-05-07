@@ -49,6 +49,7 @@ bool Rectangle::Contains(const Point &pt)
 {
     if(pt.m_x==(m_TopLeft.m_x+m_BottomRight.m_x)/2 && pt.m_y==(m_TopLeft.m_y+m_BottomRight.m_y)/2)
         return true;
+
     return pt.m_x >= m_TopLeft.m_x &&
             pt.m_y <= m_TopLeft.m_y &&
             pt.m_x <= m_BottomRight.m_x &&
