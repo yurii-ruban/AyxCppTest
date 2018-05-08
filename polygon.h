@@ -13,7 +13,5 @@ private:
 public:
     Polygon(std::initializer_list<Point> temp);
     bool Contains(const Point &pt);
-    void X_min();
-
 };
 }

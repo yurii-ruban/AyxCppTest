@@ -50,7 +50,7 @@ namespace AyxCppTest
 
 	TEST_CASE("exercise2")
 	{
-#if 0
+//#if 0
 // enable to run exercise 2 tests
         Polygon poly1{ {1, -1},{6, -1},{1, -5},{1, -1} };
 		REQUIRE(!poly1.Contains({ 4, -4 }));
@@ -73,6 +73,6 @@ namespace AyxCppTest
 		REQUIRE(!poly2.Contains({ 0, 7 }));
 		REQUIRE(!poly2.Contains({ 8, 7 }));
         REQUIRE(!poly2.Contains({4, 10} ));
-#endif
+//#endif
 	}
 }

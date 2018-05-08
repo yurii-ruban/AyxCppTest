@@ -20,4 +20,4 @@ add_executable(AyxCppTest
         polygon.cpp
 	main.cpp
 	catch/catch.hpp)
-    target_link_libraries (AyxCppTest ${CMAKE_THREAD_LIBS_INIT})
+        target_link_libraries (AyxCppTest ${CMAKE_THREAD_LIBS_INIT})
